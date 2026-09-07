@@ -1,0 +1,22 @@
+# KiCad backups and autosave
+*-backups/
+_autosave-*
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.000
+*.bak
+
+# KiCad lock files
+*.lck
+
+# Fabrication output (regenerate from source, don't version the exports)
+/gerbers/
+/fab/
+*.zip
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Per-machine local project settings (session state, not meaningful to track)
+*.kicad_prl
